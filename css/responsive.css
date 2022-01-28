@@ -6,5 +6,193 @@
 }
 
 @media screen and (min-width:320px) {
+    .logo {
+        margin-bottom: 10px;
+    }
+
+    .titulo {
+        font-size: 2rem;
+    }
+
+    .descricao {
+        font-size: 50px;
+    }
+
+    .filme-principal {
+        background-size: 100%;
+        width: 320px;
+        margin: 0 auto;
+    }
+
+    .filme-principal .container {
+        width: 90%;
+    }
+
+    .botoes {
+        
+        width: 320px;
+        margin: 0 auto;
+    }
+
+    .botao {
+        width: 150px;
+        height: 35px;
+    }
+
+    .botao img {
+        width: 23%;
+    }
+
+    .rodape-container-item-redeSociais img {
+        width: 13%;
+    }
+
+    .rodape-coluna {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        text-align: center;
+    }
+
+    .rodape-container-item-botao {
+        width: 175px;
+        height: 45px;
     
+        border: 1px solid var(--branco);
+    
+        background: black;
+        color: white;
+    
+        margin: 0 auto 35px;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .logo {
+        margin-bottom: 10px;
+    }
+
+    .titulo {
+        font-size: 2.5rem;
+    }
+
+    .descricao {
+        font-size: 50px;
+    }
+
+    .filme-principal {
+        background-size: 100%;
+        width: 480px;
+        margin: 0 auto;
+    }
+
+    .filme-principal .container {
+        width: 90%;
+    }
+
+    .botoes {
+        
+        width: 480px;
+        margin: 0 auto;
+    }
+
+    .botao {
+        width: 180px;
+        height: 45px;
+    }
+
+    .botao img {
+        width: 20%;
+    }
+
+    .rodape-container-item-redeSociais img {
+        width: 15%;
+    }
+
+    .rodape-coluna {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        text-align: center;
+    }
+
+    .rodape-container-item-botao {
+        width: 175px;
+        height: 45px;
+    
+        border: 1px solid var(--branco);
+    
+        background: black;
+        color: white;
+    
+        margin: 0 auto 35px;
+    }
+}
+
+@media screen and (min-width:600px) {
+    .logo {
+        margin-bottom: 15px;
+    }
+
+    .titulo {
+        font-size: 2.5rem;
+    }
+
+    .descricao {
+        font-size: 50px;
+    }
+
+    .filme-principal {
+        background-size: 100%;
+        width: 600px;
+        margin: 0 auto;
+    }
+
+    .filme-principal .container {
+        width: 90%;
+    }
+
+    .botoes {
+        
+        width: 480px;
+        margin: 0 auto;
+    }
+
+    .botao {
+        width: 180px;
+        height: 45px;
+    }
+
+    .botao img {
+        width: 20%;
+    }
+
+    .rodape-container-item-redeSociais img {
+        width: 15%;
+    }
+
+    .rodape-coluna {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        text-align: center;
+    }
+
+    .rodape-container-item-botao {
+        width: 175px;
+        height: 45px;
+    
+        border: 1px solid var(--branco);
+    
+        background: black;
+        color: white;
+    
+        margin: 0 auto 35px;
+    }
 }

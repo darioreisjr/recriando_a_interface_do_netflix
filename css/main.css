@@ -54,9 +54,9 @@ header nav a:hover{
 .filme-principal {
     font-size: 16px;
     background: url('../img/capa-vis-a-vis.jpg') no-repeat;
-
+   
     height: 600px;
-    background-size:cover;
+    background-size:1900px;
 
     display: flex;
     flex-direction: column;
