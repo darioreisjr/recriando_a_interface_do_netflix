@@ -1,6 +1,9 @@
 :root{
     --vermelho:#E50914;
     --preto:rgb(7, 12, 13);
+    --cinza:#c2bebe;
+    --branco:rgb(255,255,255);
+    --amarelo:#DDB545;
 }
 
 /*elementos base*/
@@ -14,23 +17,37 @@ header .container {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between
+    justify-content: space-between;
+
+    padding: 25px 15px;
 }
 
-header .logo {
+.logo a {
     color: var(--vermelho);
     font-family: 'Arial' , Times;
-    font-size: 40px;
+    font-size: 2em;
+
+    text-decoration: none;
+    text-transform: uppercase;
+
+    font-weight: 700;
 }
 
 header nav a {
     text-decoration: none;
-    color: #B1B7B8;
+    color: var(--branco);
     margin-right: 10px;
+
+    font-size: 0.9em;
+    font-weight: 300;
+
+    cursor: pointer;
+    transition: .3s ease all;
 }
 
 header nav a:hover{
-    color: #fff;
+    color: var(--cinza);
+    font-size: 1.1em;
 }
 
 /*filme principal*/
@@ -58,12 +75,26 @@ header nav a:hover{
 .filme-principal .descricao {
     margin-top: 15px;
     margin-bottom: 40px ;
+
+    font-size: 1.3em;
+    text-align: justify;
 }
 
 .titulo {
     margin-top: 15%;
-    font-size: 90px;
+    font-size: 8em;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    text-align: left;
+
+    color: var(--amarelo);
+
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.titulo:hover {
+    font-size: 9em;
 }
 
 .botoes {
@@ -73,9 +104,9 @@ header nav a:hover{
 }
 
 .botao {
-    background-color: rgba(0, 0, 0, 0.5) ;
+    background-color: var(--cinza) ;
     border: none;
-    color: white;
+    color: black;
 
     padding: 15px 30px;
     margin-right: 15px;
@@ -107,6 +138,16 @@ header nav a:hover{
     width: 100%;
     display: block;
 }
+/*configuração carrosel*/
+.carrosel-filmes {
+    padding: 5px;
+}
+
+.carrosel-filmes h3 {
+    padding: 15px;
+
+    font-size: 1.2em;
+}
 
 /*configuração do rodape*/
 .rodape {
@@ -128,10 +169,10 @@ header nav a:hover{
 
 .rodape-container-item-redeSociais {
     display: flex;
-    justify-content: start;
+    justify-content: center;
     gap: 20px;
 
-    margin: 10px 0;
+    margin: 10px 0 40px 0;
 }
 
 .rodape-container-item-redeSociais img {
@@ -149,21 +190,32 @@ header nav a:hover{
 .rodape-container-item-menu-descricao a {
     text-decoration: none;
     color: white;
+
+    font-size: 0.9em;
+}
+
+.rodape-container-item-menu-descricao a:hover{
+    color: var(--cinza);
 }
 
 .rodape-container-item-botao {
     width: 200px;
     height: 50px;
 
-    border: 1px solid white;
+    border: 1px solid var(--branco);
 
     background: black;
     color: white;
 
     margin-bottom: 35px;
+    margin-left: 25px;
+}
+
+.rodape-container-item-botao:hover {
+    border:2px solid var(--vermelho);
 }
 
 .rodape-container-item-copyright {
-    margin-bottom: 35px;
+    margin: 0 auto 35px ;
 }
 
